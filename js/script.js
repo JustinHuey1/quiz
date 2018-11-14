@@ -9,6 +9,8 @@ $(document).ready(function() {
         var q2Result = $("#question2").val();
         var q3Result = $("#question3").val();
         var totalScore;
+        
+        
     });
 
 });
