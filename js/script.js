@@ -49,11 +49,11 @@ $(document).ready(function() {
             var door = "Regular Door";
         }else if(totalScore > 5 && totalScore < 7){
             var door = "Garage Door";
-        }else if(totalScore > 7 && totalScore < 9){
+        }else if(totalScore >= 7 && totalScore < 9){
             var door = "Sliding Door";
-        }else if(totalScore > 9 && totalScore < 11){
+        }else if(totalScore >= 9 && totalScore < 11){
             var door = "Automatic Sensor Door";
-        }else if(totalScore > 11 && totalScore < 13){
+        }else if(totalScore >= 11 && totalScore < 13){
             var door = "Revolving Door";
         }else if(totalScore === 13 || totalScore === 14){
             var door = "Dog Door";
