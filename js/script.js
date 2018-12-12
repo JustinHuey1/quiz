@@ -65,12 +65,12 @@ $(document).ready(function() {
             return "Congrats " + name + " you are a " + door;
         }
          
-        $("body").text(congrats(name, door));
+        $(".end").text(congrats(name, door));
         
         if(door === "Regular Door"){
-             $("img").attr("src", "https://s7d2.scene7.com/is/image/homedepotcanada/p_1000108114.jpg?$plpProduct$");
+             $(".end").html("https://s7d2.scene7.com/is/image/homedepotcanada/p_1000108114.jpg?$plpProduct$");
         }else if(door === "Garage Door"){
-             $("img").attr("src", "https://www.overheaddoor.com/Lists/Product%20Collections/windload-thermacore-resi-MAIN-model.jpg");
+             $(".end").html("https://www.overheaddoor.com/Lists/Product%20Collections/windload-thermacore-resi-MAIN-model.jpg");
         }else if(door === "Sliding Door"){
              $("img").attr("src", "https://i.pinimg.com/736x/a3/b5/30/a3b5303d345b28817d041b77f12e77f7--sliding-wood-doors-interior-sliding-doors.jpg");
         }else if(door === "Automatic Sensor Door"){
@@ -78,7 +78,7 @@ $(document).ready(function() {
         }else if(door === "Revolving Door"){
              $("img").attr("src" ,"http://www.slate.com/content/dam/slate/blogs/the_eye/2013/11/07/131107_EYE_revolvingDoor.jpg.CROP.original-original.jpg");
         }else if(door === "Dog Door"){
-             $("img").attr("src", "https://smhttp-ssl-21800.nexcesscdn.net/media/catalog/product/cache/1/image/650x/9df78eab33525d08d6e5fb8d27136e95/i/d/ideal_fast_fit_patio_pet_door_doggie_door_1100.jpg");
+             $(".end").html("img" , "https://smhttp-ssl-21800.nexcesscdn.net/media/catalog/product/cache/1/image/650x/9df78eab33525d08d6e5fb8d27136e95/i/d/ideal_fast_fit_patio_pet_door_doggie_door_1100.jpg");
         }else{
              
         } 
