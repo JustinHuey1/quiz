@@ -56,7 +56,17 @@ body{
     margin-left:20px;
 }
 
+.pic{
+    display:flex;
+    justify-content:center;
+}
+
 .end{
     height: 25px;
     width: 25px;
+}
+
+.answer{
+    font-size: 30px;
+    text-align: center;
 }
